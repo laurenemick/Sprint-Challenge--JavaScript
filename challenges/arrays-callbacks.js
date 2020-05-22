@@ -101,7 +101,7 @@ const greeting = (first, last) => `Hello ${first} ${last}, nice to meet you!`;
   console.log(consume(10, 16, multiply)); // 160
   console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
-  
+
 /*
 
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.

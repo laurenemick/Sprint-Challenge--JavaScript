@@ -24,9 +24,10 @@ myFunction();
 `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
 function sumation(parameter){
-  var counter = 0;
-  for(let i = 0; i < parameter; i ++){
-    
+  let counter = 0;
+  for(let i = 0; i <= parameter; i++){
+    counter += i;
   } 
+  return counter;
 }
-sumation(4);
+console.log(sumation(4));
